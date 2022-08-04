@@ -94,3 +94,80 @@ java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
 	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.notifyIdle(IndexManager.java:826)
 	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:425)
 	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.egit.core 4 0 2022-08-04 17:58:02.873
+!MESSAGE An exception occurred during push on URI https://github.com/JongYeonHwang/Study.git: https://github.com/JongYeonHwang/Study.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/JongYeonHwang/Study.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:685)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:627)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:138)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1389)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:254)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2022-08-04 17:58:02.876
+!MESSAGE Can't connect to any repository: https://github.com/JongYeonHwang/Study.git (https://github.com/JongYeonHwang/Study.git: not authorized)
+
+!ENTRY org.eclipse.egit.core 4 0 2022-08-04 17:58:57.754
+!MESSAGE An exception occurred during push on URI https://github.com/JongYeonHwang/Study.git: Nothing to push.
+!STACK 0
+org.eclipse.jgit.errors.TransportException: Nothing to push.
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1384)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:254)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2022-08-04 17:58:57.755
+!MESSAGE Can't connect to any repository: https://github.com/JongYeonHwang/Study.git (Nothing to push.)
+
+!ENTRY org.eclipse.egit.core 4 0 2022-08-04 18:00:42.161
+!MESSAGE An exception occurred during push on URI https://github.com/JongYeonHwang/Study.git: https://github.com/JongYeonHwang/Study.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/JongYeonHwang/Study.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:685)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:627)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:138)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1389)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:254)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2022-08-04 18:00:42.163
+!MESSAGE Can't connect to any repository: https://github.com/JongYeonHwang/Study.git (https://github.com/JongYeonHwang/Study.git: not authorized)
+
+!ENTRY org.eclipse.egit.core 4 0 2022-08-04 18:02:14.692
+!MESSAGE An exception occurred during push on URI https://github.com/JongYeonHwang/Study.git: https://github.com/JongYeonHwang/Study.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/JongYeonHwang/Study.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:685)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:627)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:138)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1389)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:254)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2022-08-04 18:02:14.693
+!MESSAGE Can't connect to any repository: https://github.com/JongYeonHwang/Study.git (https://github.com/JongYeonHwang/Study.git: not authorized)
+
+!ENTRY org.eclipse.egit.core 4 0 2022-08-04 18:06:01.210
+!MESSAGE An exception occurred during push on URI https://github.com/JongYeonHwang/Study.git: Nothing to push.
+!STACK 0
+org.eclipse.jgit.errors.TransportException: Nothing to push.
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1384)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:254)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2022-08-04 18:06:01.210
+!MESSAGE Can't connect to any repository: https://github.com/JongYeonHwang/Study.git (Nothing to push.)
