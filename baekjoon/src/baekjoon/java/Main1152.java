@@ -15,14 +15,8 @@ public class Main1152 {
 		String str = S.substring(1, S.length());
 		
 		String[] sArr = str.split(" ");
-
-		if(sArr[0] != " ") {
-			System.out.println("0");
-		}else {
-			System.out.println(sArr.length);
-		}
-			
-
+		
+		System.out.print(sArr.length);
 	}
 
 }
