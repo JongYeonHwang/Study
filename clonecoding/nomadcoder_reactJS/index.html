@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+        function MinutesToHours(){
+            return (
+                <h1>qwe</h1>
+            )
+        }
+        function KmToMiles(){
+            return (
+                <h1>q23</h1>
+            )
+        }
+        function App () {
+            const [index, setIndex] = React.useState("0");
+            const onSelect = (event) => {
+                setIndex(event.target.value);
+            };
+            return (
+                <div>
+                    <h1>Super Converter</h1>
+                    <select value={index} onChange={onSelect}>
+                        <option value="0">Minutes & Hours</option>
+                        <option value="1">Km & miles</option>
+                    </select>
+                    <hr/>
+                    {index === "0" ? <MinutesToHours /> : null}
+                    {index === "1" ? <KmToMiles /> : null}
+                </div>
+            );
+        }
+        const root = document.getElementById('root');
+        ReactDOM.render(<App/>, root);
+    </script>
+</body>
+</html>
